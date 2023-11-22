@@ -1,0 +1,114 @@
+@import "styles.css";
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .menu li {
+    padding: 0 1em;
+    margin-right: 0em;
+  }
+
+  .menu li:last-child {
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  footer ul li:first-child {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 660px) {
+  .container {
+    max-width: 500px;
+  }
+
+  /* Estilos do menu */
+
+  #menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    width: 100%;
+    background-color: var(--primary);
+    z-index: 1000;
+    height: 0;
+    visibility: hidden;
+    transition: ease 0.6s;
+    overflow: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active-menu #menu {
+    display: block;
+    visibility: visible;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  #menu li {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  }
+
+  #menu li a {
+    display: block;
+    margin: 40px 0;
+  }
+
+  #menu li:last-child {
+    margin: 0 20px;
+  }
+  #btn-menu {
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: var(--support-2);
+    gap: 0.5rem;
+  }
+
+  #hamb {
+    width: 20px;
+    border-top: 3px solid var(--support-2);
+  }
+
+  #hamb::after,
+  #hamb::before {
+    display: block;
+    margin-top: 5px;
+    content: "";
+    width: 20px;
+    height: 3px;
+    background: var(--support-2);
+    transition: ease 0.3s;
+    position: relative;
+  }
+
+  #nav.active-menu #hamb {
+    border-top-color: transparent;
+  }
+
+  #nav.active-menu #hamb::before {
+    transform: rotate(135deg);
+  }
+
+  #nav.active-menu #hamb::after {
+    transform: rotate(-135deg);
+    top: -8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin: 0 10px;
+  }
+}

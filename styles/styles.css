@@ -1,0 +1,160 @@
+/* paleta de cores */
+
+:root {
+  --primary: #2b64d8;
+  --primary-dark: #0e3c9a;
+  --primary-light: #dee5f3;
+}
+:root {
+  --support-1: #3a3a3a;
+  --support-2: #ffffff;
+  --support-3: #faf9fe;
+}
+:root {
+  --gray-1: #828282;
+  --gray-2: #4f4f4f;
+  --gray-3: #1e1e1e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--support-2);
+}
+
+button {
+  font-family: "JetBrainsMono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: var(--weight1);
+  line-height: 97.494%; /* 0.97494rem */
+  letter-spacing: 0.055rem;
+}
+
+.title {
+  text-align: left;
+  margin-top: 50px;
+  font-family: "NotoSerifThai";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: var(--weight3);
+  line-height: 121.994%; /* 2.28738rem */
+  letter-spacing: 0.075rem;
+  padding-top: 20px;
+}
+
+.button-stroke {
+  background-color: var(--primary);
+  border: 2px solid var(--support-2);
+  color: var(--support-2);
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: var(--weight3);
+
+  transition: background-color 0.3s ease;
+}
+
+.button-stroke:hover {
+  font-weight: 500;
+  background-color: var(--support-2);
+  border: 2px solid var(--support-2);
+  color: var(--primary);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/*header, nav começo */
+
+.navbar {
+  /* estilo texto destaque h1 */
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: var(--primary);
+  border-bottom: 2px var(--support-2) solid;
+}
+
+.navbar div {
+  text-align: center;
+  align-items: center;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos da logo */
+.logo {
+  flex: 0 0 auto;
+}
+
+.logo a img {
+  width: 60px;
+  transition: transform 0.3s ease;
+}
+
+.logo a img:hover {
+  transform: scale(1.2);
+}
+
+/* Estilos do menu */
+#menu {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#btn-menu {
+  display: none;
+}
+
+.menu li {
+  text-align: center;
+  font-family: "JetBrainsMono";
+  font-size: 1rem;
+  font-style: bold;
+  line-height: 97.494%; /* 0.97494rem */
+  letter-spacing: 0.055rem;
+
+  padding: 0 2em;
+  margin-right: 0.4em;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu li:last-child {
+  padding: 0;
+}
+
+.menu li a {
+  color: var(--support-2);
+  text-decoration: none;
+  transition: 0.3s ease;
+  font-weight: var(--weight3);
+}
+
+/* Efeito hover */
+.menu li:hover {
+  transform: scale(1.1);
+}
+
+.menu li:last-child:hover {
+  transform: scale(1.05);
+}
+
+.intro {
+  padding-top: 70px;
+  height: 500px;
+  background-image: url("/assets/imgs/fly.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*header, nav fim*/
