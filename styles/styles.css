@@ -1,4 +1,4 @@
-/* paleta de cores */
+/* tema */
 
 :root {
   --primary: #2b64d8;
@@ -16,6 +16,26 @@
   --gray-3: #1e1e1e;
 }
 
+h1{
+  font-family: 'Inconsolata', monospace;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+h4{
+  font-size: 24px;
+  font-family:  'Manjari', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  line-height: 142.363%;
+  letter-spacing: 0.48px;
+}
+
+a{
+  font-family: 'Manjari','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,12 +47,12 @@ body {
 }
 
 button {
-  font-family: "JetBrainsMono";
+  font-family: "Manjari";
   font-size: 1rem;
   font-style: normal;
-  font-weight: var(--weight1);
   line-height: 97.494%; /* 0.97494rem */
   letter-spacing: 0.055rem;
+  text-transform: uppercase;
 }
 
 .title {
@@ -53,9 +73,10 @@ button {
   color: var(--support-2);
   border-radius: 5px;
   padding: 10px 20px;
+  padding-bottom: 8px;
+  padding-top: 15px;
   cursor: pointer;
-  font-weight: var(--weight3);
-
+  font-weight: 500;
   transition: background-color 0.3s ease;
 }
 
@@ -92,7 +113,7 @@ button {
 }
 
 .logo a img {
-  width: 60px;
+  width: 50px;
   transition: transform 0.3s ease;
 }
 
@@ -157,4 +178,25 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
-/*header, nav fim*/
+
+.introContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro h1{
+  color: var(--support-2);
+}
+
+.intro span{
+  border-bottom: #0e3c9a 8px solid;
+  font-weight: bolder;
+}
+
+
+.intro h4{
+  max-width: 650px;
+  color: var(--support-2);
+}
