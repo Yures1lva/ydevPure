@@ -1,94 +1,7 @@
-/* tema */
-
-:root {
-  --primary: #2b64d8;
-  --primary-dark: #0e3c9a;
-  --primary-light: #dee5f3;
-}
-:root {
-  --support-1: #3a3a3a;
-  --support-2: #ffffff;
-  --support-3: #faf9fe;
-}
-:root {
-  --gray-1: #828282;
-  --gray-2: #4f4f4f;
-  --gray-3: #1e1e1e;
-}
-
-h1{
-  font-family: 'Inconsolata', monospace;
-  font-size: 64px;
-  font-weight: 400;
-}
-
-h4{
-  font-size: 24px;
-  font-family:  'Manjari', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 400;
-  line-height: 142.363%;
-  letter-spacing: 0.48px;
-}
-
-a{
-  font-family: 'Manjari','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+@import  '/styles/components.css';
 
 
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  background: var(--support-2);
-}
-
-button {
-  font-family: "Manjari";
-  font-size: 1rem;
-  font-style: normal;
-  line-height: 97.494%; /* 0.97494rem */
-  letter-spacing: 0.055rem;
-  text-transform: uppercase;
-}
-
-.title {
-  text-align: left;
-  margin-top: 50px;
-  font-family: "NotoSerifThai";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: var(--weight3);
-  line-height: 121.994%; /* 2.28738rem */
-  letter-spacing: 0.075rem;
-  padding-top: 20px;
-}
-
-.button-stroke {
-  background-color: var(--primary);
-  border: 2px solid var(--support-2);
-  color: var(--support-2);
-  border-radius: 5px;
-  padding: 10px 20px;
-  padding-bottom: 8px;
-  padding-top: 15px;
-  cursor: pointer;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-
-.button-stroke:hover {
-  font-weight: 500;
-  background-color: var(--support-2);
-  border: 2px solid var(--support-2);
-  color: var(--primary);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-/*header, nav começo */
+/*header, nav começo.................... */
 
 .navbar {
   /* estilo texto destaque h1 */
@@ -136,7 +49,6 @@ button {
 
 .menu li {
   text-align: center;
-  font-family: "JetBrainsMono";
   font-size: 1rem;
   font-style: bold;
   line-height: 97.494%; /* 0.97494rem */
@@ -170,6 +82,7 @@ button {
   transform: scale(1.05);
 }
 
+/* Conteudo incial intro ....................................  */
 .intro {
   padding-top: 70px;
   height: 450px;
@@ -195,8 +108,69 @@ button {
   font-weight: bolder;
 }
 
-
 .intro h4{
   max-width: 650px;
   color: var(--support-2);
+}
+
+/* Portfolio...................................................................  */
+
+.portfolio{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.portfolio div{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cardPortfolio{
+  background-color: var(--primary-light);
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all ease .3s;
+}
+.portfolio a{
+  text-decoration: none;
+}
+
+.cardPortfolio:hover{
+  cursor: pointer;
+  background-color: #F1F3F6;
+}
+
+.cardPortfolio:hover h3{
+  background-size: 100% 3px;
+}
+
+.cardPortfolio img{
+  width: 200px;
+  text-align: center;
+  /* border: 2px solid red; */
+
+}
+
+.cardPortfolio h3{
+  font-family:  'Inconsolata', monospace;
+  font-size: 70px;
+  text-align: center;
+  color: var(--primary);
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  transition: all ease .4s;
+
+  background-image: linear-gradient(90deg, var(--primary),var(--primary));
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  cursor:pointer;
 }
