@@ -1,9 +1,17 @@
 @import "styles.css";
 
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro{
+  background-color: #275CCA;
+}
+
 @media (max-width: 1199px) {
   .container {
     max-width: 1000px;
-    margin: 0 auto;
   }
 
   .menu li {
@@ -16,8 +24,9 @@
     margin-top: 5px;
   }
 
-  footer ul li:first-child {
-    width: 40%;
+  .intro{
+    padding-top: 80px;
+    background-image: url("/assets/imgs/fly2.png");
   }
 }
 
@@ -104,6 +113,10 @@
   #nav.active-menu #hamb::after {
     transform: rotate(-135deg);
     top: -8px;
+  }
+
+  .intro{
+    background-image: url("/assets/imgs/fly3.png");
   }
 }
 

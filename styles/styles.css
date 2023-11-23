@@ -151,7 +151,7 @@ button {
 
 .intro {
   padding-top: 70px;
-  height: 500px;
+  height: 450px;
   background-image: url("/assets/imgs/fly.png");
   object-fit: cover;
   background-repeat: no-repeat;
