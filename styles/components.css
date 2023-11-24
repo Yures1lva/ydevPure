@@ -5,17 +5,16 @@
     --primary: #2b64d8;
     --primary-dark: #0e3c9a;
     --primary-light: #dee5f3;
-  }
-  :root {
+
     --support-1: #3a3a3a;
     --support-2: #ffffff;
-    --support-3: #faf9fe;
-  }
-  :root {
+    --support-3: #F1F3F6;
+
     --gray-1: #555555;
     --gray-2: #4f4f4f;
     --gray-3: #1e1e1e;
   }
+
   
   
 /* Tipografia....................  */
@@ -37,6 +36,14 @@ h1{
     font-weight: 400;
     line-height: 142.363%;
     letter-spacing: 0.48px;
+  }
+
+  p{
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.863%; /* 19.338px */
+    letter-spacing: 0.08px;
   }
   
   a{
