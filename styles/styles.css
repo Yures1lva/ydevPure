@@ -55,6 +55,7 @@
   letter-spacing: 0.055rem;
 
   padding: 0 2em;
+  padding-top: 0.2em;
   margin-right: 0.4em;
   transition: 0.3s ease;
   cursor: pointer;
@@ -162,11 +163,8 @@
 }
 
 .cardPortfolio h3{
-  font-family:  'Inconsolata', monospace;
-  font-size: 70px;
   text-align: center;
   color: var(--primary);
-  font-weight: 700;
   margin: 0px;
   padding: 0px;
   transition: all ease .4s;
@@ -204,6 +202,12 @@
   font-size: 18px;
   font-weight: 500;
   text-decoration: underline var(--primary);
+}
+
+.HomeCardsPortfolio{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
 }
 
 .CardDescriptPortfolio{
@@ -254,4 +258,5 @@
 
 .CardDescriptPortfolio p{
   text-align: center;
+  margin: 5px 0 0 0 ;
 }
