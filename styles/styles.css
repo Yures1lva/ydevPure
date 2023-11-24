@@ -179,14 +179,14 @@
   cursor:pointer;
 }
 
-.descriptPortfolio{
-  padding-top: 80px;
-}
+
 
 .TitleDescriptPortfolio{
   display: flex;
   flex-direction: row;
   align-items: first baseline;
+  padding-top: 80px;
+
 }
 
 .TitleDescriptPortfolio img{
@@ -211,6 +211,7 @@
   border-radius: 8px;
   padding: 5px;
   width: 350px;
+  margin: 0;
 }
 
 .CardDescriptPortfolio h4{
