@@ -127,6 +127,7 @@
 .containerPortfolio{
   max-width: 800px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .cardsPortfolioTitle{
@@ -259,4 +260,72 @@
 .CardDescriptPortfolio p{
   text-align: center;
   margin: 5px 0 0 0 ;
+}
+
+
+
+
+/* Footer.................................................................................  */
+/* footer */
+footer {
+  text-align: left;
+  background-color: var(--primary-light);
+}
+
+footer ul {
+  padding: 40px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer ul li {
+  list-style: none;
+  color: var(--gray-2);
+  margin: 0 50px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--gray-2);
+  transition: all ease .3s ;
+
+}
+footer ul li a:hover {
+  cursor: pointer;
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+footer ul li:first-child {
+  width: 30%;
+}
+
+footer h1 {
+  color: var( --primary-dark);
+  /* p */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.863%; /* 19.338px */
+  letter-spacing: 0.08px;
+}
+footer h2 {
+  color: var(--gray-2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+
+footer ul li img {
+  height: 50px;
+  padding-bottom: 10px;
 }
