@@ -263,6 +263,114 @@
   margin: 5px 0 0 0 ;
 }
 
+/* About sobre....................................................................................... */
+
+.about{
+  background-color: var(--primary-light);
+  padding: 50px 0;
+}
+
+.about img{
+  width: 150px;
+  margin-right: 20px;
+}
+
+.about  article{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.about article > div > div > h2 {
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  color: var(--gray-1);
+
+
+}
+
+.about article > div > h3 {
+  margin: 0;
+  padding: 0;
+
+  color: var(--primary, #2B64D8);
+
+}
+
+.about article > div > div > p {
+  margin: 0;
+  padding: 0;
+  color: var(--gray-1);
+
+}
+
+.about article > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.about  article > div > p:last-child {
+  max-width: 600px;
+  color: var(--gray-1);
+
+}
+
+.about  article > div > p:last-child a{
+  color: var(--primary);
+  text-decoration: underline;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+
+/* Qualificações skills.................................................................... */
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills a{
+  text-decoration: none;
+}
+
+.skills article{
+  background-color: var(--support-3);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all ease .5s;
+}
+
+.skills img{
+  height: 150px;
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.skills p{
+  color: var(--primary);
+  margin: 5px 0;
+}
+
+.skills article:hover{
+  background-color: var(--support-2);
+
+}
+
+/* Duvidas Faq questions............................................................................... */
+
+.questions{
+  margin: 50px 0;
+}
 
 
 
@@ -305,6 +413,8 @@ footer ul li a:hover {
   cursor: pointer;
   color: var(--primary-dark);
   text-decoration: underline;
+  text-transform: uppercase;
+
 }
 
 footer ul li:first-child {
