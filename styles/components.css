@@ -4,11 +4,11 @@
 :root {
     --primary: #2b64d8;
     --primary-dark: #0e3c9a;
-    --primary-light: #dee5f3;
+    --primary-light: #EFF4FF;
 
     --support-1: #3a3a3a;
     --support-2: #ffffff;
-    --support-3: #F1F3F6;
+    --support-3: #E8EBF1;
 
     --gray-1: #555555;
     --gray-2: #4f4f4f;
@@ -104,4 +104,30 @@ h1{
     color: var(--primary);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
   }
+
+
+
+
+/* manutenção..........................................................................  */
+  /* .maintenance{
+    background-color: #FBFCFF;
+    padding: 30px 0;
+
+  }
+
+  .maintenance div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
   
+  .maintenance img{
+    height: 350px;
+  }
+
+  .maintenance h1{
+    color: var(--primary);
+    font-weight: 500;
+  }
+   */
