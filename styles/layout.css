@@ -423,5 +423,19 @@ justify-content: space-evenly;
     
   }
 
+  .CardDescriptPortfolio > div > img{
+    width: 30%;
+    height: 30%;
+  }
+
+
+  .CardDescriptPortfolio span img:first-child{
+    width: 28px;
+  }
+  
+  .CardDescriptPortfolio span img{
+    width: 20px;
+    margin-right: 5px;
+  }
 
 }
