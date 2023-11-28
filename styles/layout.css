@@ -100,6 +100,7 @@ h1{
 @media (max-width: 660px) {
   .container {
     max-width: 600px;
+    padding: 0 20px;
   }
 
   /* Estilos do menu */
@@ -218,16 +219,26 @@ h1{
   .portfolio{
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .cardsPortfolioTitle{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
     gap: 20px;
 
   }
+
+  .cardPortfolio{
+    width: 70%;
+  }
+
+  .cardPortfolio img{
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .cardPortfolio h3{
+    font-size: 30px;
+  }
+  
 
 
 
@@ -243,6 +254,33 @@ h1{
     width: 38px;
     margin-right: 3px;
   }
+
+  .skills {
+    gap: 30px;
+  justify-content: space-evenly;
+
+  }
+
+  .skills article{
+    width: 120px;
+
+  }
+
+  .about article{
+    flex-direction: column;
+  }
+
+  .skills img{
+    height: 100px;
+    width: 100px;
+  }
+
+  
+  footer{
+
+    padding: 30px 0 30px 0
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -251,17 +289,82 @@ h1{
     margin: 0 10px;
   }
 
-  footer{
-
-    padding: 30px 0 0 10px;
+  .introContent{
+    margin: 0 10px;
   }
+  .introContent img{
+    height: 250px;
+  }
+
+  .cardsPortfolioTitle{
+    gap: 5px;
+  padding-bottom: 10px;
+
+  }
+
+  .TitleDescriptPortfolio{
+    padding-top: 20px;
+  
+  }
+
+  .cardPortfolio{
+    width: 80%;
+  }
+
+  .cardPortfolio img{
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .cardPortfolio h3{
+    font-size: 20px;
+  }
+
+  .cardPortfolio h3{
+    font-size: 15px;
+  }
+
+  .about article > div > div > h2 {
+    font-size: 30px;
+  }
+  
+.about article > div > h3 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.skills {
+  gap: 10px;
+justify-content: space-evenly;
+
+}
+
+.skills article{
+  width: 100px;
+
+}
+
+.about article{
+  flex-direction: column;
+}
+
+.skills img{
+  height: 70px;
+  width: 70px;
+}
+  
+
   footer ul {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: start;
     align-items: start;
+    margin: 0;
+
     padding: 0;
+
+
   }
 
   footer ul li {
@@ -271,7 +374,7 @@ h1{
   }
 
   footer h1 {
-    padding-top: 100px;
+    padding-top: 30px;
   }
 
   footer h2 {
@@ -281,6 +384,11 @@ h1{
   footer ul li:first-child {
     width: 100%;
   }
+
+  footer a {
+    padding: 5px 0;
+  }
+
 }
 
 
@@ -288,8 +396,12 @@ h1{
 
   .container {
     max-width: 100%;
-    margin: 0;
+    margin: 0 10px;
     padding: 0;
+  }
+
+  h2{
+    font-size: 30px;
   }
 
   .introContent{
@@ -304,10 +416,12 @@ h1{
     margin: 0;
     padding: 0;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .CardDescriptPortfolio{
     width: 100%;
     
   }
+
+
 }

@@ -287,8 +287,6 @@
   padding: 0;
   padding-right: 10px;
   color: var(--gray-1);
-
-
 }
 
 .about article > div > h3 {
@@ -296,7 +294,6 @@
   padding: 0;
 
   color: var(--primary, #2B64D8);
-
 }
 
 .about article > div > div > p {
@@ -345,13 +342,14 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  width: 90%;
   justify-content: space-between;
   align-items: center;
   transition: all ease .5s;
 }
 
 .skills img{
-  height: 150px;
+  height: 100px;
   text-align: center;
   margin: 10px 20px;
 }
@@ -362,7 +360,7 @@
 }
 
 .skills article:hover{
-  background-color: var(--support-2);
+  background-color: var(--support-4);
 
 }
 
@@ -382,7 +380,7 @@ footer {
 }
 
 footer ul {
-  padding: 40px 0 0 0;
+  padding: 40px 0 30px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -390,12 +388,13 @@ footer ul {
   align-items: start;
   width: 100%;
   box-sizing: border-box;
+
 }
 
 footer ul li {
   list-style: none;
   color: var(--gray-2);
-  margin: 0 50px;
+  margin: 0 50px ;
   display: flex;
   flex-direction: column;
   justify-content: start;
