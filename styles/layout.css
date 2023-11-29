@@ -1,4 +1,3 @@
-@import "styles.css";
 
 .container{
   max-width: 1200px;
@@ -26,7 +25,7 @@
 
   .intro{
     padding-top: 80px;
-    background-image: url("/assets/imgs/fly2.png");
+    background-image: url("assets/imgs/fly2.png");
   }
 }
 
@@ -37,7 +36,7 @@
 
   /* Conteudo incial intro ....................................  */
 .intro {
-  background-image: url("/assets/imgs/fly2.png");
+  background-image: url("assets/imgs/fly2.png");
 }
 
 h1{
@@ -187,7 +186,7 @@ h1{
 
   
   .intro{
-    background-image: url("/assets/imgs/fly3.png");
+    background-image: url("assets/imgs/fly3.png");
   padding-top: 50px;
   padding-bottom: 30px;
 

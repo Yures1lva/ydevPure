@@ -1,5 +1,3 @@
-@import  '/styles/components.css';
-
 
 /*header, nav começo.................... */
 
@@ -88,7 +86,7 @@
 .intro {
   padding-top: 70px;
   height: 450px;
-  background-image: url("/assets/imgs/fly.png");
+  background-image: url("assets/imgs/fly.png");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
