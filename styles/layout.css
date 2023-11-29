@@ -288,6 +288,17 @@ h1{
     gap: 60px;
   }
 
+  .maintenance div{
+    flex-direction: column;
+
+  }
+
+  .maintenance img{
+    height: 90%;
+    width: 90%;
+  }
+
+
   
   footer{
 
