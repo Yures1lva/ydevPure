@@ -282,6 +282,12 @@ h1{
     width: 100px;
   }
 
+
+  .questionsContent {
+    flex-direction: column;
+    gap: 60px;
+  }
+
   
   footer{
 
@@ -359,7 +365,30 @@ justify-content: space-evenly;
   height: 70px;
   width: 70px;
 }
+
+.questionsContent div form span{
   
+  flex-direction: column;
+}
+
+.questionsContent  input{
+  height: 25px;
+}
+
+.questionsContent div form span input{
+  width: 94.5%;
+}
+
+.questionsContent div form button{
+  background-color: var(--primary);
+  color: var(--support-2);
+  text-transform: uppercase;
+  padding: 12px 20px 5px 20px;
+  border: solid 1px var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease .3s;
+}
 
   footer ul {
     display: flex;

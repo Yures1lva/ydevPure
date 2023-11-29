@@ -8,10 +8,10 @@
 
     --support-1: #3a3a3a;
     --support-2: #ffffff;
-    --support-3: #E8EBF1;
+    --support-3: #F9FAFC;
     --support-4: #CDD3E0;
 
-    --gray-1: #555555;
+    --gray-1: #747474;
     --gray-2: #4f4f4f;
     --gray-3: #1e1e1e;
   }
@@ -85,14 +85,36 @@ h1{
   }
 
 /* Botões.........................    */
-  button {
-    font-family: "Manjari";
-    font-size: 1rem;
-    font-style: normal;
-    line-height: 97.494%; /* 0.97494rem */
-    letter-spacing: 0.055rem;
-    text-transform: uppercase;
+
+
+  input, textarea{
+    background-color: var(--support-3);
+    border: 1px solid var(--support-4);
+    border-radius: 5px;
+    padding: 8px;
+    font-family: 'Manjari' ,'Gill Sans', sans-serif;
+    color: var(--gray-1);
   }
+
+  textarea:focus, input:focus{
+    border: 1px solid var(--primary);
+    outline: 0;
+    
+  }
+ 
+  textarea{
+      resize: none;
+    }
+
+    button {
+      font-family: "Manjari";
+      font-size: 1rem;
+      font-style: normal;
+      line-height: 97.494%; /* 0.97494rem */
+      letter-spacing: 0.155rem;
+      text-transform: uppercase;
+    }
+
   .button-stroke {
     background-color: var(--primary);
     border: 2px solid var(--support-2);

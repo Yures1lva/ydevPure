@@ -220,6 +220,7 @@
 
 .CardDescriptPortfolio h4{
   color: var(--primary);
+  margin: 0;
 }
 
 .CardDescriptPortfolio div{
@@ -236,9 +237,7 @@
   flex-direction: column;
 }
 
-.CardDescriptPortfolio div article h4{
-  margin: 0;
-}
+
 
 
 .CardDescriptPortfolio span{
@@ -259,6 +258,7 @@
 .CardDescriptPortfolio p{
   text-align: center;
   margin: 5px 0 0 0 ;
+  color: var(--gray-1);
 }
 
 /* About sobre....................................................................................... */
@@ -366,6 +366,106 @@
 
 .questions{
   margin: 50px 0;
+}
+
+.questions h4 {
+  color: var(--gray-1);
+  font-family:'Manjari';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.363%; /* 34.167px */
+  letter-spacing: 0.48px;
+}
+
+.questions p{
+  background-color: var(--primary-light);
+  padding:  10px 10px 5px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--support-4);
+  color: var(--gray-1);
+}
+
+.questions a{
+  text-transform: none;
+  text-decoration: underline;
+  cursor:  pointer;
+}
+
+.questionsContent {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.questionsContent div:first-child{
+  flex: 1;
+}
+
+.questionsContent div:last-child{
+  flex: 1;
+
+}
+
+.questionsContent div form{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.questionsContent div form span{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.questionsContent div form span input{
+  width: 100%;
+}
+
+.questionsContent div form button{
+  background-color: var(--primary);
+  color: var(--support-2);
+  text-transform: uppercase;
+  padding: 6px 20px 0px 20px;
+  border: solid 1px var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease .3s;
+}
+
+.questionsContent div form button:hover{
+  background-color: var(--primary-dark);
+  transform: translate(1.1);
+}
+
+.questionsContent div h3{
+  color: var(--gray-2);
+  margin: 3px;
+}
+
+.questionsContent div:last-child a {
+  border-bottom: 1px solid var(--primary);
+
+}
+
+.questionsContent div:last-child a div{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questionsContent div:last-child a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.questionsContent div:last-child a span{
+  padding: 10px;
 }
 
 
