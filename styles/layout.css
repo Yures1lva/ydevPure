@@ -109,9 +109,11 @@ h1{
     display: block;
     position: absolute;
     right: 0;
-    top: 38px;
+    top: 32px;
     width: 100%;
     background-color: var(--primary);
+    border-top: 2px solid var(--support-2);
+
     z-index: 1000;
     height: 0;
     visibility: hidden;
@@ -144,7 +146,13 @@ h1{
     background: none;
     cursor: pointer;
     color: var(--support-2);
-    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  #btn-menu p{
+    text-transform: none;
+    margin-right: 5px;
   }
 
   #hamb {
