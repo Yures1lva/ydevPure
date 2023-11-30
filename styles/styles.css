@@ -444,10 +444,6 @@
   margin: 3px;
 }
 
-.questionsContent div:last-child a {
-  border-bottom: 2px solid var(--primary);
-
-}
 
 .questionsContent div:last-child a div{
   text-decoration: none;
@@ -472,6 +468,7 @@
 
 .faq{
   margin: 10px 0;
+  border-bottom: 2px solid var(--gray-1);
   padding: 0 5px;
 
 }
@@ -481,6 +478,8 @@
   background-color: var(--support-3);
   padding: 0 5px;
   border-radius: 8px;
+  border-bottom: 2px solid var(--primary);
+
 }
 
 
