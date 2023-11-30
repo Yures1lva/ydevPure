@@ -377,24 +377,29 @@ justify-content: space-evenly;
   width: 70px;
 }
 
+.questions h2{
+  margin: 0;
+  padding: 0;
+}
+
 .questionsContent div form span{
-  
   flex-direction: column;
 }
 
 .questionsContent  input{
-  height: 25px;
+  padding: 15px 5px 10px 5px;
+
 }
 
 .questionsContent div form span input{
-  width: 94.5%;
+  width: 97%;
 }
 
 .questionsContent div form button{
   background-color: var(--primary);
   color: var(--support-2);
   text-transform: uppercase;
-  padding: 12px 20px 5px 20px;
+  padding: 15px 20px 10px 20px;
   border: solid 1px var(--primary);
   border-radius: 5px;
   cursor: pointer;
