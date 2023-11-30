@@ -445,7 +445,7 @@
 }
 
 .questionsContent div:last-child a {
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
 
 }
 
@@ -468,6 +468,32 @@
   padding: 10px;
 }
 
+/* faq duvidas.................................................................................. */
+
+.faq{
+  margin: 10px 0;
+  padding: 0 5px;
+
+}
+
+.titleQuestion{
+  color: var(--primary);
+  background-color: var(--support-3);
+  padding: 0 5px;
+  border-radius: 8px;
+}
+
+
+
+.off{
+  display: none;
+  visibility: hidden;
+}
+/* pra cima */
+/* .on{
+  display: block;
+  visibility: visible;
+} */
 
 
 /* contact contato.......................................................................... */

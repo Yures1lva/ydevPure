@@ -46,4 +46,32 @@
   $clickMenu5.addEventListener("click", function () {
     nav.classList.toggle("active-menu");
   });
+
+
+  // faq........................................................
+
+  var $a = document.getElementById("faqF");
+  var $textFaq = document.getElementById("textFaq")
+
+  $a.addEventListener("click", showContent)
+
+  function showContent(){
+    $textFaq.classList.toggle("off")
+    $a.classList.toggle("titleQuestion")
+
+  }
+
+
+  // var $faq2 = document.getElementById("faqF2");
+  // var $textFaq2 = document.getElementById("textFaq2")
+
+  // $faq2.addEventListener("click", showContent)
+
+  // function showContent(){
+  //   $textFaq2.classList.toggle("off")
+  //   $faq2.classList.toggle("titleQuestion")
+
+  // }
+
+
 })();
