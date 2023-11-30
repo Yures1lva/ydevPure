@@ -470,7 +470,11 @@
   margin: 10px 0;
   border-bottom: 2px solid var(--gray-1);
   padding: 0 5px;
+}
 
+.faq h4{
+  display: none;
+  visibility: hidden;
 }
 
 .titleQuestion{
@@ -482,12 +486,13 @@
 
 }
 
-
-
-.off{
-  display: none;
-  visibility: hidden;
+.titleQuestion h4{
+  display: block;
+  visibility: visible;
 }
+
+
+
 /* pra cima */
 /* .on{
   display: block;

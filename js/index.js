@@ -50,28 +50,58 @@
 
   // faq........................................................
 
-  var $a = document.getElementById("faqF");
-  var $textFaq = document.getElementById("textFaq")
+  var $q1 = document.getElementById("Q1");
+  var $q2 = document.getElementById("Q2")
+  var $q3 = document.getElementById("Q3")
+  var $q4 = document.getElementById("Q4")
+  var $q5 = document.getElementById("Q5")
 
-  $a.addEventListener("click", showContent)
+  $q1.addEventListener("click", q1f)
+  $q2.addEventListener("click", q2f)
+  $q3.addEventListener("click", q3f)
+  $q4.addEventListener("click", q4f)
+  $q5.addEventListener("click", q5f)
 
-  function showContent(){
-    $textFaq.classList.toggle("off")
-    $a.classList.toggle("titleQuestion")
 
+  function q1f(){
+    $q1.classList.toggle("titleQuestion")
+    $q2.classList.remove("titleQuestion")
+    $q3.classList.remove("titleQuestion")
+    $q4.classList.remove("titleQuestion")
+    $q5.classList.remove("titleQuestion")
+  }
+  
+
+  function q2f(){
+    $q2.classList.toggle("titleQuestion")
+    $q1.classList.remove("titleQuestion")
+    $q3.classList.remove("titleQuestion")
+    $q4.classList.remove("titleQuestion")
+    $q5.classList.remove("titleQuestion")
   }
 
-
-  // var $faq2 = document.getElementById("faqF2");
-  // var $textFaq2 = document.getElementById("textFaq2")
-
-  // $faq2.addEventListener("click", showContent)
-
-  // function showContent(){
-  //   $textFaq2.classList.toggle("off")
-  //   $faq2.classList.toggle("titleQuestion")
-
-  // }
+  function q3f(){
+    $q3.classList.toggle("titleQuestion")
+    $q1.classList.remove("titleQuestion")
+    $q2.classList.remove("titleQuestion")
+    $q4.classList.remove("titleQuestion")
+    $q5.classList.remove("titleQuestion")
+  }
+  function q4f(){
+    $q4.classList.toggle("titleQuestion")
+    $q1.classList.remove("titleQuestion")
+    $q2.classList.remove("titleQuestion")
+    $q3.classList.remove("titleQuestion")
+    $q5.classList.remove("titleQuestion")
+  }
+  function q5f(){
+    $q5.classList.toggle("titleQuestion")
+    $q1.classList.remove("titleQuestion")
+    $q2.classList.remove("titleQuestion")
+    $q3.classList.remove("titleQuestion")
+    $q4.classList.remove("titleQuestion")
+  }
+  
 
 
 })();
