@@ -413,6 +413,11 @@
   gap: 8px;
 }
 
+.questionsContent div input{
+  height: 20px;
+
+}
+
 .questionsContent div form span{
   display: flex;
   flex-direction: row;
