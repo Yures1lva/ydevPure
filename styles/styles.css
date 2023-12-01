@@ -81,6 +81,7 @@
   text-decoration: none;
   transition: 0.3s ease;
   font-weight: var(--weight3);
+  text-transform: uppercase;
 
 }
 
@@ -246,6 +247,7 @@
 .CardDescriptPortfolio div{
   display: flex;
   flex-direction: row;
+  justify-content: left;
 }
 
 .CardDescriptPortfolio > div > img{
@@ -636,6 +638,8 @@ footer ul li a {
   color: var(--gray-2);
   transition: all ease .3s ;
   margin: 5px 0;
+  text-transform: uppercase;
+
 
 }
 footer ul li a:hover {
@@ -715,3 +719,98 @@ footer ul li img {
   color: var(--primary);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
 }
+
+
+/* detalhes de portfolios............................................................................... */
+
+.containerPortfolioDetail{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.portfolioDetail img{
+  height: 100px;
+  padding-top: 100px;
+}
+
+
+.portfolioDetail h3{
+  text-align: center;
+  padding-top: 50px;
+
+  color: var(--gray-2);
+} 
+
+.portfolioDetail p{
+  text-align: center;
+  padding:0;
+  margin: 0 auto ;
+  color: var(--gray-2);
+
+  max-width: 600px;
+
+} 
+
+
+.portfolioDetailTitle{
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolioDetailTitle div{
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolioDetailTitle > h2{
+  padding-top: 100px;
+
+}
+ 
+.titlePortfolio{
+  display: flex;
+  flex-direction: row;
+}
+
+.titlePortfolio h3{
+  text-align: left;
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+.titlePortfolio span{
+  display: block;
+  height: 18px;
+  width: 18px;
+  border-radius: 3px;
+  background-color: var(--primary);
+  transform: rotateZ(45deg);
+}
+
+
+
+.portfolioDetailCard span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.portfolioDetailCard span div{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.portfolioDetailCard p{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolioDetailCard img{
+  padding-top: 0;
+}
+
