@@ -222,11 +222,20 @@
 }
 
 .CardDescriptPortfolio{
-  background-color: var(--primary-light);
+  background-color: var(--support-3);
   border-radius: 8px;
   padding: 5px;
   width: 350px;
   margin: 0;
+  cursor: pointer;
+  transition: all ease .3s;
+  border: 1px solid var(--support-3);
+
+}
+
+.CardDescriptPortfolio:hover {
+  background-color: var(--primary-light);
+  border: 1px solid var(--primary);
 }
 
 .CardDescriptPortfolio h4{
