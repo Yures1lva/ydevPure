@@ -660,3 +660,49 @@ footer ul li img {
   height: 50px;
   padding-bottom: 10px;
 }
+
+
+
+/* sucess page....................................................................................; */
+
+.success div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.success h2{
+  max-width: 500px;
+  margin: 0;
+}
+
+.success img{
+  height: 300px;
+  margin: 0;
+}
+
+.success button {
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  color: var(--support-2);
+  border-radius: 5px;
+  padding: 10px 20px;
+  padding-bottom: 8px;
+  padding-top: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.success button:hover {
+  font-weight: 500;
+  background-color: var(--support-2);
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
+}

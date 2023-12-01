@@ -461,6 +461,29 @@ justify-content: space-evenly;
     padding: 5px 0;
   }
 
+
+  .success div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  .success img{
+    height: 200px;
+    margin: 0;
+  }
+  
+  .success button {
+    width: 100%;
+    padding: auto;
+    margin: 0;
+  }
+
 }
 
 
