@@ -32,6 +32,17 @@
   transform: scale(1.2);
 }
 
+.zap{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  transition: all ease .3s;
+}
+
+.zap:hover{
+  transform: scale(1.1);
+}
+
 /* Estilos do menu */
 #menu {
   flex: 1 1 auto;
@@ -365,7 +376,7 @@
 /* Duvidas Faq questions............................................................................... */
 
 .questions{
-  margin: 50px 0;
+  margin: 100px 0 50px 0;
 }
 
 .questions h4 {
@@ -506,14 +517,80 @@
 
 
 /* contact contato.......................................................................... */
-.contact{
-  background-color: #FBFCFF;
 
+.contact > div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
 }
 
 .contact h2{
   padding-top: 100px;
   text-align: center;
+}
+
+.contact h3{
+  color: var(--gray-1);
+  font-weight: 400;
+  margin: 0;
+}
+
+
+.contact button{
+  background-color: var(--primary);
+  color: var(--support-2);
+  text-transform: uppercase;
+  padding: 6px 20px 0px 20px;
+  margin: 30px 0;
+  border: solid 1px var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  transition: all ease .3s;
+}
+
+.contact button:hover{
+  background-color: var(--primary-dark);
+  transform: translate(1.1);
+}
+
+.contact > div > article {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+
+}
+
+.contact > div > article > img{
+  width: 350px;
+  height: 350px;
+}
+
+.contact > div > div {
+  flex: 1;
+}
+
+.contact ul{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+.contact ul li{
+  list-style: none;
+  transition: all ease .3s;
+}
+
+.contact ul li:hover{
+  transform: scale(1.1);
+}
+
+.contact ul li img{
+  width: 35px;
 }
 
 /* Footer.................................................................................  */
