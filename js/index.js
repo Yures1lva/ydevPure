@@ -48,7 +48,7 @@
   });
 
 
-  // faq........................................................
+  // faq........................................................ coisa feio da mzr mas fds funciona
 
   var $q1 = document.getElementById("Q1");
   var $q2 = document.getElementById("Q2")
@@ -103,5 +103,15 @@
   }
   
 
+// form ...............................................................
+
+
+// document.getElementById("formQuestion").addEventListener('submit', handleSubmit)
+
+// const handleSubmit = (event) =>{
+//   event.preventDefault();
+
+
+// }
 
 })();
