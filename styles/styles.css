@@ -770,18 +770,21 @@ footer ul li img {
 .titlePortfolio{
   display: flex;
   flex-direction: row;
+  align-items: end;
+  padding:  80px 0 10px 0;
 }
 
 .titlePortfolio h3{
   text-align: left;
-  margin: 50px 0 0 0;
   padding: 0;
+  margin: 0;
 }
 
 .titlePortfolio span{
   display: block;
   height: 18px;
   width: 18px;
+  margin: 0 8px 8px 0;
   border-radius: 3px;
   background-color: var(--primary);
   transform: rotateZ(45deg);
@@ -794,15 +797,12 @@ footer ul li img {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .portfolioDetailCard span div{
   display: flex;
   flex-direction: row;
 }
-
-
 
 .portfolioDetailCard p{
   text-align: left;
@@ -814,3 +814,63 @@ footer ul li img {
   padding-top: 0;
 }
 
+.titlePortfolio2{
+  justify-content: end;
+}
+
+.portfolioDetailCard2 span{
+  flex-direction: row-reverse;
+}
+
+
+.portfolioDetailCard2 p{
+  text-align: right;
+}
+
+
+.PortfolioEndContent p{
+  text-align: left;
+  padding-top: 10px;
+} 
+
+.PortfolioEndContent div{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.PortfolioEndContent img{
+  height: 600px;
+}
+
+.PortfolioEndContent ul {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.PortfolioEndContent ul li{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: all ease .3s;
+
+}
+
+.PortfolioEndContent ul img{
+  height: 100px;
+}
+
+.PortfolioEndContent ul a{
+  text-decoration: none;
+  color: var(--gray-1);
+  transition: all ease .3s;
+}
+
+.PortfolioEndContent ul li:hover, .PortfolioEndContent ul li a:hover{
+  text-decoration: underline;
+  color: var(--primary);
+}
