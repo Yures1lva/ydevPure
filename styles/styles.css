@@ -850,6 +850,7 @@ footer ul li img {
   gap: 60px;
   flex-direction: row;
   margin-bottom: 100px;
+  align-items: center;
 }
 
 .PortfolioEndContent ul li{
@@ -857,6 +858,7 @@ footer ul li img {
   flex-direction: column;
   gap: 5px;
   transition: all ease .3s;
+
 
 }
 
