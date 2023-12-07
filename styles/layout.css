@@ -1,22 +1,16 @@
-
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.intro{
-  background-color: #275CCA;
+.intro {
+  background-color: #275cca;
 }
-
-
 
 @media (max-width: 1199px) {
   .container {
     max-width: 1000px;
   }
-
- 
-
 
   .menu li {
     padding: 0 1em;
@@ -28,7 +22,7 @@
     margin-top: 5px;
   }
 
-  .intro{
+  .intro {
     padding-top: 80px;
     background-image: url("assets/imgs/fly2.png");
   }
@@ -39,72 +33,81 @@
     max-width: 700px;
   }
 
+  .imgsMF {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .imgsMF img {
+    height: auto;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+  }
+
   /* Conteudo incial intro ....................................  */
-.intro {
-  background-image: url("assets/imgs/fly2.png");
-}
+  .intro {
+    background-image: url("assets/imgs/fly2.png");
+  }
 
-h1{
-  font-size: 30px;
+  h1 {
+    font-size: 30px;
+  }
 
-}
+  .cardsPortfolioTitle {
+    margin: 0 10px;
+  }
 
-.cardsPortfolioTitle{
-  margin: 0 10px;
-}
+  .cardPortfolio h3 {
+    font-size: 50px;
+  }
 
-.cardPortfolio h3{
-  font-size: 50px;
-}
+  .intro h4 {
+    font-size: 18px;
+  }
 
-.intro h4{
-  font-size: 18px;
-}
+  .cardPortfolio img {
+    width: 180px;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
 
-.cardPortfolio img{
-  width: 180px;
-  text-align: center;
-  /* border: 2px solid red; */
-}
+  .CardDescriptPortfolio {
+    width: 300px;
+    margin: 0 0 10px 0;
+  }
 
-.CardDescriptPortfolio{
-  width: 300px;
-  margin: 0 0 10px 0;
-  
-}
+  .CardDescriptPortfolio > div > img {
+    width: 100px;
+  }
 
+  .HomeCardsPortfolio {
+    padding: 0 10px;
+  }
 
-.CardDescriptPortfolio > div > img{
-  width: 100px;
-}
+  .CardDescriptPortfolio span img:first-child {
+    width: 38px;
+  }
 
-.HomeCardsPortfolio{
-  padding: 0 10px;
-}
+  .CardDescriptPortfolio span img {
+    width: 30px;
+    margin-right: 3px;
+  }
 
-.CardDescriptPortfolio span img:first-child{
-  width: 38px;
-}
+  .CardDescriptPortfolio div article h4 {
+    font-size: 20px;
+  }
 
-.CardDescriptPortfolio span img{
-  width: 30px;
-  margin-right: 3px;
-}
-
-.CardDescriptPortfolio div article h4{
-  font-size: 20px;
-}
-
-.CardDescriptPortfolio p{
-  font-size: 14px;
-}
-
+  .CardDescriptPortfolio p {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 660px) {
   .container {
     max-width: 600px;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   /* Estilos do menu */
@@ -154,7 +157,7 @@ h1{
     align-items: baseline;
   }
 
-  #btn-menu p{
+  #btn-menu p {
     text-transform: none;
     margin-right: 5px;
   }
@@ -189,13 +192,10 @@ h1{
     top: -8px;
   }
 
-  
-  .intro{
+  .intro {
     background-image: url("assets/imgs/fly3.png");
-  padding-top: 50px;
-  padding-bottom: 30px;
-
-
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
 
   .introContent {
@@ -204,172 +204,163 @@ h1{
     justify-content: start;
   }
 
-  .introContent img{
+  .introContent img {
     height: 300px;
   }
 
-  .intro h1{
+  .intro h1 {
     margin: 0;
   }
-  
-  .intro span{
-    border-bottom: #0e3c9a 2px solid;
 
+  .intro span {
+    border-bottom: #0e3c9a 2px solid;
   }
-  
-  .intro h4{
+
+  .intro h4 {
     margin: 10px 0 0 0;
     font-size: 16px;
     opacity: 0.7;
   }
-  
 
-  .HomeCardsPortfolio{
-    flex-direction: column; 
+  .HomeCardsPortfolio {
+    flex-direction: column;
   }
 
-  .portfolio{
+  .portfolio {
     display: flex;
     flex-direction: column;
   }
 
-  .cardsPortfolioTitle{
+  .cardsPortfolioTitle {
     gap: 20px;
-
   }
 
-  .cardPortfolio{
+  .cardPortfolio {
     width: 70%;
   }
 
-  .cardPortfolio img{
+  .cardPortfolio img {
     width: 100%;
     /* border: 2px solid red; */
   }
 
-  .cardPortfolio h3{
+  .cardPortfolio h3 {
     font-size: 30px;
   }
-  
 
-
-
-  .CardDescriptPortfolio > div > img{
+  .CardDescriptPortfolio > div > img {
     width: 90px;
   }
 
-  .CardDescriptPortfolio span img:first-child{
+  .CardDescriptPortfolio span img:first-child {
     width: 45px;
   }
-  
-  .CardDescriptPortfolio span img{
+
+  .CardDescriptPortfolio span img {
     width: 38px;
     margin-right: 3px;
   }
 
   .skills {
     gap: 30px;
-  justify-content: space-evenly;
-
+    justify-content: space-evenly;
   }
 
-  .skills article{
+  .skills article {
     width: 120px;
-
   }
 
-  .about article{
+  .about article {
     flex-direction: column;
   }
 
-  .skills img{
+  .skills img {
     height: 100px;
     width: 100px;
   }
-
 
   .questionsContent {
     flex-direction: column;
     gap: 60px;
   }
 
-  .maintenance div{
+  .maintenance div {
     flex-direction: column;
-
   }
 
-  .maintenance img{
+  .maintenance img {
     height: 90%;
     width: 90%;
   }
 
-  .contact > div{
+  .contact > div {
     flex-direction: column;
     gap: 10px;
   }
-  
 
-
-  footer{
-
-    padding: 30px 0 30px 0
+  footer {
+    padding: 30px 0 30px 0;
   }
 
-  .containerPortfolioDetail{
+  .containerPortfolioDetail {
     padding: 0 20px;
   }
 
-  .portfolioDetail img{
+  .portfolioDetail img {
     height: 100px;
     padding-top: 70px;
     margin: 0;
   }
 
-  .portfolioDetailTitle{
+  .imgsMF img {
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .portfolioDetailTitle {
     flex-direction: column-reverse;
   }
 
-  .portfolioDetailTitle > h2{
+  .portfolioDetailTitle > h2 {
     padding-top: 1px;
     margin: 0;
-   }
+  }
 
-   .portfolioDetailCard span{
+  .portfolioDetailCard span {
     flex-direction: column;
-   }
+  }
 
-   .portfolioDetailCard img{
+  .portfolioDetailCard img {
     padding: 0;
-   }
+  }
 
-   .PortfolioEndContent div {
+  .PortfolioEndContent div {
     flex-direction: column;
-   }
+  }
 
-   .PortfolioEndContent div img{
+  .PortfolioEndContent div img {
     height: 500px;
-   }
+  }
 
-.PortfolioEndContent ul {
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
-  padding: 0;
-  justify-content: center;
-}
+  .PortfolioEndContent ul {
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+  }
 
-.PortfolioEndContent ul li{
-  padding: 0;
-  margin: 0;
-}
+  .PortfolioEndContent ul li {
+    padding: 0;
+    margin: 0;
+  }
 
-.PortfolioEndContent ul li img{
-  padding: 0;
-  margin: 0;
-}
-
-
-
+  .PortfolioEndContent ul li img {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media (max-width: 500px) {
@@ -378,108 +369,107 @@ h1{
     margin: 0 10px;
   }
 
-  .introContent{
+  .containerPortfolioDetail {
+    margin: 0;
+    padding: 0;
+  }
+
+  .introContent {
     margin: 0 10px;
   }
-  .introContent img{
+  .introContent img {
     height: 250px;
   }
 
-  .cardsPortfolioTitle{
+  .cardsPortfolioTitle {
     gap: 5px;
-  padding-bottom: 10px;
-
+    padding-bottom: 10px;
   }
 
-  .TitleDescriptPortfolio{
+  .TitleDescriptPortfolio {
     padding-top: 20px;
-  
   }
 
-  .cardPortfolio{
+  .cardPortfolio {
     width: 80%;
   }
 
-  .cardPortfolio img{
+  .cardPortfolio img {
     width: 100%;
     /* border: 2px solid red; */
   }
 
-  .cardPortfolio h3{
+  .cardPortfolio h3 {
     font-size: 20px;
   }
 
-  .cardPortfolio h3{
+  .cardPortfolio h3 {
     font-size: 15px;
   }
 
   .about article > div > div > h2 {
     font-size: 30px;
   }
-  
-.about article > div > h3 {
-  font-size: 14px;
-  margin-top: 10px;
-}
 
-.skills {
-  gap: 10px;
-justify-content: space-evenly;
+  .about article > div > h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
 
-}
+  .skills {
+    gap: 10px;
+    justify-content: space-evenly;
+  }
 
-.skills article{
-  width: 100px;
+  .skills article {
+    width: 100px;
+  }
 
-}
+  .about article {
+    flex-direction: column;
+  }
 
-.about article{
-  flex-direction: column;
-}
+  .skills img {
+    height: 70px;
+    width: 70px;
+  }
 
-.skills img{
-  height: 70px;
-  width: 70px;
-}
+  .questions h2 {
+    margin: 0;
+    padding: 0;
+  }
 
-.questions h2{
-  margin: 0;
-  padding: 0;
-}
+  .questionsContent div form span {
+    flex-direction: column;
+  }
 
-.questionsContent div form span{
-  flex-direction: column;
-}
+  .questionsContent input {
+    padding: 15px 5px 10px 5px;
+  }
 
-.questionsContent  input{
-  padding: 15px 5px 10px 5px;
+  .questionsContent div form span input {
+    width: 97%;
+  }
 
-}
+  .questionsContent div form button {
+    background-color: var(--primary);
+    color: var(--support-2);
+    text-transform: uppercase;
+    padding: 15px 20px 10px 20px;
+    border: solid 1px var(--primary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+  }
 
-.questionsContent div form span input{
-  width: 97%;
-}
+  .contact > div > article > img {
+    width: 90%;
+    height: 90%;
+  }
 
-.questionsContent div form button{
-  background-color: var(--primary);
-  color: var(--support-2);
-  text-transform: uppercase;
-  padding: 15px 20px 10px 20px;
-  border: solid 1px var(--primary);
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all ease .3s;
-}
-
-.contact > div > article > img{
-  width: 90%;
-  height: 90%;
-}
-
-.contact button{
-  width: 100%;
-}
-
+  .contact button {
+    width: 100%;
+  }
 
   footer ul {
     display: flex;
@@ -490,8 +480,6 @@ justify-content: space-evenly;
     margin: 0;
 
     padding: 0;
-
-
   }
 
   footer ul li {
@@ -516,8 +504,7 @@ justify-content: space-evenly;
     padding: 5px 0;
   }
 
-
-  .success div{
+  .success div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -528,64 +515,61 @@ justify-content: space-evenly;
     padding-bottom: 20px;
   }
 
-  .success img{
+  .success img {
     height: 200px;
     margin: 0;
   }
-  
+
   .success button {
     width: 100%;
     padding: auto;
     margin: 0;
   }
-
 }
 
-
 @media (max-width: 366px) {
-
   .container {
     max-width: 100%;
     margin: 0 10px;
     padding: 0;
   }
 
-  h2{
+  h2 {
     font-size: 30px;
   }
 
-  .introContent{
+  .introContent {
     margin: 0 10px;
   }
-  .introContent img{
+  .introContent img {
     height: 200px;
   }
 
-
-  .HomeCardsPortfolio{
+  .HomeCardsPortfolio {
     margin: 0;
     padding: 0;
     align-items: center;
     padding: 0 10px;
   }
-  .CardDescriptPortfolio{
+  .CardDescriptPortfolio {
     width: 100%;
-    
   }
 
-  .CardDescriptPortfolio > div > img{
+  .CardDescriptPortfolio > div > img {
     width: 30%;
     height: 30%;
   }
 
-
-  .CardDescriptPortfolio span img:first-child{
+  .CardDescriptPortfolio span img:first-child {
     width: 28px;
   }
-  
-  .CardDescriptPortfolio span img{
+
+  .CardDescriptPortfolio span img {
     width: 20px;
     margin-right: 5px;
   }
-
+  .imgsMF img {
+    height: 200px;
+    width: 250px;
+  }
 }

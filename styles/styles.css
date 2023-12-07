@@ -1,4 +1,3 @@
-
 /*header, nav começo.................... */
 
 .navbar {
@@ -32,14 +31,14 @@
   transform: scale(1.2);
 }
 
-.zap{
+.zap {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
 
-.zap:hover{
+.zap:hover {
   transform: scale(1.1);
 }
 
@@ -82,7 +81,6 @@
   transition: 0.3s ease;
   font-weight: var(--weight3);
   text-transform: uppercase;
-
 }
 
 /* Efeito hover */
@@ -111,104 +109,99 @@
   align-items: center;
 }
 
-.intro h1{
+.intro h1 {
   color: var(--support-2);
 }
 
-.intro span{
+.intro span {
   border-bottom: #0e3c9a 8px solid;
   font-weight: bolder;
 }
 
-.intro h4{
+.intro h4 {
   max-width: 650px;
   color: var(--support-2);
 }
 
 /* Portfolio...................................................................  */
 
-.portfolio{
+.portfolio {
   padding-top: 50px;
 }
 
-.portfolio a{
+.portfolio a {
   text-decoration: none;
 }
 
-.containerPortfolio{
+.containerPortfolio {
   max-width: 800px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
 
-.cardsPortfolioTitle{
+.cardsPortfolioTitle {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
-.cardPortfolio{
+.cardPortfolio {
   background-color: var(--primary-light);
   padding: 8px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
 
-.cardPortfolio:hover{
+.cardPortfolio:hover {
   cursor: pointer;
   background-color: var(--support-3);
 }
 
-.cardPortfolio:hover h3{
+.cardPortfolio:hover h3 {
   background-size: 100% 3px;
 }
 
-.cardPortfolio img{
+.cardPortfolio img {
   width: 200px;
   text-align: center;
   /* border: 2px solid red; */
-
 }
 
-.cardPortfolio h3{
+.cardPortfolio h3 {
   text-align: center;
   color: var(--primary);
   margin: 0px;
   padding: 0px;
-  transition: all ease .4s;
+  transition: all ease 0.4s;
 
-  background-image: linear-gradient(90deg, var(--primary),var(--primary));
+  background-image: linear-gradient(90deg, var(--primary), var(--primary));
   background-repeat: no-repeat;
   background-size: 0% 3px;
   background-position: left bottom;
   transition: background-size 500ms ease;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-
-
-.TitleDescriptPortfolio{
+.TitleDescriptPortfolio {
   display: flex;
   flex-direction: row;
   align-items: first baseline;
   padding-top: 80px;
-
 }
 
-.TitleDescriptPortfolio img{
+.TitleDescriptPortfolio img {
   width: 45px;
   margin-right: 5px;
 }
 
-.TitleDescriptPortfolio p{
+.TitleDescriptPortfolio p {
   margin: 0 4px;
 }
 
-.TitleDescriptPortfolio a{
+.TitleDescriptPortfolio a {
   text-transform: capitalize;
   color: var(--primary);
   font-size: 18px;
@@ -216,22 +209,21 @@
   text-decoration: underline var(--primary);
 }
 
-.HomeCardsPortfolio{
-  display: flex; 
-  flex-direction: row; 
+.HomeCardsPortfolio {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-.CardDescriptPortfolio{
+.CardDescriptPortfolio {
   background-color: var(--support-3);
   border-radius: 8px;
   padding: 5px;
   width: 350px;
   margin: 0;
   cursor: pointer;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
   border: 1px solid var(--support-3);
-
 }
 
 .CardDescriptPortfolio:hover {
@@ -239,63 +231,60 @@
   border: 1px solid var(--primary);
 }
 
-.CardDescriptPortfolio h4{
+.CardDescriptPortfolio h4 {
   color: var(--primary);
   margin: 0;
 }
 
-.CardDescriptPortfolio div{
+.CardDescriptPortfolio div {
   display: flex;
   flex-direction: row;
   justify-content: left;
 }
 
-.CardDescriptPortfolio > div > img{
+.CardDescriptPortfolio > div > img {
   width: 130px;
 }
 
-.CardDescriptPortfolio div article{
+.CardDescriptPortfolio div article {
   display: flex;
   flex-direction: column;
 }
 
-
-
-
-.CardDescriptPortfolio span{
+.CardDescriptPortfolio span {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.CardDescriptPortfolio span img:first-child{
+.CardDescriptPortfolio span img:first-child {
   width: 58px;
 }
 
-.CardDescriptPortfolio span img{
+.CardDescriptPortfolio span img {
   width: 50px;
   margin-right: 5px;
 }
 
-.CardDescriptPortfolio p{
+.CardDescriptPortfolio p {
   text-align: center;
-  margin: 5px 0 0 0 ;
+  margin: 5px 0 0 0;
   color: var(--gray-1);
 }
 
 /* About sobre....................................................................................... */
 
-.about{
+.about {
   background-color: var(--primary-light);
   padding: 50px 0;
 }
 
-.about img{
+.about img {
   width: 150px;
   margin-right: 20px;
 }
 
-.about  article{
+.about article {
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -313,14 +302,13 @@
   margin: 0;
   padding: 0;
 
-  color: var(--primary, #2B64D8);
+  color: var(--primary, #2b64d8);
 }
 
 .about article > div > div > p {
   margin: 0;
   padding: 0;
   color: var(--gray-1);
-
 }
 
 .about article > div > div {
@@ -331,13 +319,12 @@
   padding: 0;
 }
 
-.about  article > div > p:last-child {
+.about article > div > p:last-child {
   max-width: 600px;
   color: var(--gray-1);
-
 }
 
-.about  article > div > p:last-child a{
+.about article > div > p:last-child a {
   color: var(--primary);
   text-decoration: underline;
   text-transform: lowercase;
@@ -353,11 +340,11 @@
   gap: 10px;
 }
 
-.skills a{
+.skills a {
   text-decoration: none;
 }
 
-.skills article{
+.skills article {
   background-color: var(--support-3);
   border-radius: 8px;
   display: flex;
@@ -365,34 +352,33 @@
   width: 90%;
   justify-content: space-between;
   align-items: center;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
-.skills img{
+.skills img {
   height: 100px;
   text-align: center;
   margin: 10px 20px;
 }
 
-.skills p{
+.skills p {
   color: var(--primary);
   margin: 5px 0;
 }
 
-.skills article:hover{
+.skills article:hover {
   background-color: var(--support-4);
-
 }
 
 /* Duvidas Faq questions............................................................................... */
 
-.questions{
+.questions {
   margin: 100px 0 50px 0;
 }
 
 .questions h4 {
   color: var(--gray-1);
-  font-family:'Manjari';
+  font-family: "Manjari";
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -400,18 +386,18 @@
   letter-spacing: 0.48px;
 }
 
-.questions p{
+.questions p {
   background-color: var(--primary-light);
-  padding:  10px 10px 5px 10px;
+  padding: 10px 10px 5px 10px;
   border-radius: 5px;
   border: 1px solid var(--support-4);
   color: var(--gray-1);
 }
 
-.questions a{
+.questions a {
   text-transform: none;
   text-decoration: underline;
-  cursor:  pointer;
+  cursor: pointer;
 }
 
 .questionsContent {
@@ -420,37 +406,35 @@
   gap: 50px;
 }
 
-.questionsContent div:first-child{
+.questionsContent div:first-child {
   flex: 1;
 }
 
-.questionsContent div:last-child{
+.questionsContent div:last-child {
   flex: 1;
-
 }
 
-.questionsContent div form{
+.questionsContent div form {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.questionsContent div input{
+.questionsContent div input {
   height: 20px;
-
 }
 
-.questionsContent div form span{
+.questionsContent div form span {
   display: flex;
   flex-direction: row;
   gap: 8px;
 }
 
-.questionsContent div form span input{
+.questionsContent div form span input {
   width: 100%;
 }
 
-.questionsContent div form button{
+.questionsContent div form button {
   background-color: var(--primary);
   color: var(--support-2);
   text-transform: uppercase;
@@ -458,21 +442,20 @@
   border: solid 1px var(--primary);
   border-radius: 5px;
   cursor: pointer;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
 
-.questionsContent div form button:hover{
+.questionsContent div form button:hover {
   background-color: var(--primary-dark);
   transform: translate(1.1);
 }
 
-.questionsContent div h3{
+.questionsContent div h3 {
   color: var(--gray-2);
   margin: 3px;
 }
 
-
-.questionsContent div:last-child a div{
+.questionsContent div:last-child a div {
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -480,45 +463,42 @@
   align-items: center;
 }
 
-.questionsContent div:last-child a{
+.questionsContent div:last-child a {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.questionsContent div:last-child a span{
+.questionsContent div:last-child a span {
   padding: 10px;
 }
 
 /* faq duvidas.................................................................................. */
 
-.faq{
+.faq {
   margin: 10px 0;
   border-bottom: 2px solid var(--gray-1);
   padding: 0 5px;
 }
 
-.faq h4{
+.faq h4 {
   display: none;
   visibility: hidden;
 }
 
-.titleQuestion{
+.titleQuestion {
   color: var(--primary);
   background-color: var(--support-3);
   padding: 0 5px;
   border-radius: 8px;
   border-bottom: 2px solid var(--primary);
-
 }
 
-.titleQuestion h4{
+.titleQuestion h4 {
   display: block;
   visibility: visible;
 }
-
-
 
 /* pra cima */
 /* .on{
@@ -526,10 +506,9 @@
   visibility: visible;
 } */
 
-
 /* contact contato.......................................................................... */
 
-.contact > div{
+.contact > div {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -537,19 +516,18 @@
   margin-bottom: 100px;
 }
 
-.contact h2{
+.contact h2 {
   padding-top: 100px;
   text-align: center;
 }
 
-.contact h3{
+.contact h3 {
   color: var(--gray-1);
   font-weight: 400;
   margin: 0;
 }
 
-
-.contact button{
+.contact button {
   background-color: var(--primary);
   color: var(--support-2);
   text-transform: uppercase;
@@ -559,10 +537,10 @@
   border-radius: 5px;
   cursor: pointer;
   height: 40px;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
 
-.contact button:hover{
+.contact button:hover {
   background-color: var(--primary-dark);
   transform: translate(1.1);
 }
@@ -571,10 +549,9 @@
   flex: 1;
   display: flex;
   justify-content: end;
-
 }
 
-.contact > div > article > img{
+.contact > div > article > img {
   width: 350px;
   height: 350px;
 }
@@ -583,7 +560,7 @@
   flex: 1;
 }
 
-.contact ul{
+.contact ul {
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -591,16 +568,16 @@
   gap: 15px;
 }
 
-.contact ul li{
+.contact ul li {
   list-style: none;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
 
-.contact ul li:hover{
+.contact ul li:hover {
   transform: scale(1.1);
 }
 
-.contact ul li img{
+.contact ul li img {
   width: 35px;
 }
 
@@ -620,13 +597,12 @@ footer ul {
   align-items: start;
   width: 100%;
   box-sizing: border-box;
-
 }
 
 footer ul li {
   list-style: none;
   color: var(--gray-2);
-  margin: 0 50px ;
+  margin: 0 50px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -636,18 +612,15 @@ footer ul li {
 footer ul li a {
   text-decoration: none;
   color: var(--gray-2);
-  transition: all ease .3s ;
+  transition: all ease 0.3s;
   margin: 5px 0;
   text-transform: uppercase;
-
-
 }
 footer ul li a:hover {
   cursor: pointer;
   color: var(--primary-dark);
   text-decoration: underline;
   text-transform: uppercase;
-
 }
 
 footer ul li:first-child {
@@ -655,7 +628,7 @@ footer ul li:first-child {
 }
 
 footer h1 {
-  color: var( --primary-dark);
+  color: var(--primary-dark);
   /* p */
   font-size: 16px;
   font-style: normal;
@@ -667,18 +640,14 @@ footer a {
   color: var(--gray-2);
 }
 
-
-
 footer ul li img {
   height: 50px;
   padding-bottom: 10px;
 }
 
-
-
 /* sucess page....................................................................................; */
 
-.success div{
+.success div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -689,12 +658,12 @@ footer ul li img {
   padding-bottom: 100px;
 }
 
-.success h2{
+.success h2 {
   max-width: 500px;
   margin: 0;
 }
 
-.success img{
+.success img {
   height: 300px;
   margin: 0;
 }
@@ -720,67 +689,62 @@ footer ul li img {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-
 /* detalhes de portfolios............................................................................... */
 
-.containerPortfolioDetail{
+.containerPortfolioDetail {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.portfolioDetail img{
+.portfolioDetail img {
   height: 100px;
   padding-top: 100px;
 }
 
-
-.portfolioDetail h3{
+.portfolioDetail h3 {
   text-align: center;
   padding-top: 50px;
 
   color: var(--gray-2);
-} 
+}
 
-.portfolioDetail p{
+.portfolioDetail p {
   text-align: center;
-  padding:0;
-  margin: 0 auto ;
+  padding: 0;
+  margin: 0 auto;
   color: var(--gray-2);
 
   max-width: 600px;
+}
 
-} 
-
-
-.portfolioDetailTitle{
+.portfolioDetailTitle {
   display: flex;
   flex-direction: row;
 }
 
-.portfolioDetailTitle div{
+.portfolioDetailTitle div {
   display: flex;
   flex-direction: row;
 }
 
-.portfolioDetailTitle > h2{
+.portfolioDetailTitle > h2 {
   padding-top: 100px;
-
 }
- 
-.titlePortfolio{
+
+.titlePortfolio {
   display: flex;
   flex-direction: row;
   align-items: end;
-  padding:  80px 0 10px 0;
+  padding: 80px 0 10px 0;
 }
 
-.titlePortfolio h3{
+.titlePortfolio h3 {
   text-align: left;
   padding: 0;
   margin: 0;
 }
 
-.titlePortfolio span{
+.titlePortfolio span {
   display: block;
   height: 18px;
   width: 18px;
@@ -790,58 +754,60 @@ footer ul li img {
   transform: rotateZ(45deg);
 }
 
-
-
-.portfolioDetailCard span{
+.portfolioDetailCard span {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.portfolioDetailCard span div{
+.portfolioDetailCard span div {
   display: flex;
   flex-direction: row;
 }
 
-.portfolioDetailCard p{
+.portfolioDetailCard p {
   text-align: left;
   margin: 0;
   padding: 0;
 }
 
-.portfolioDetailCard img{
+.portfolioDetailCard img {
   padding-top: 0;
 }
 
-.titlePortfolio2{
+.titlePortfolio2 {
   justify-content: end;
 }
 
-.portfolioDetailCard2 span{
+.portfolioDetailCard2 span {
   flex-direction: row-reverse;
 }
 
-
-.portfolioDetailCard2 p{
+.portfolioDetailCard2 p {
   text-align: right;
 }
 
-
-.PortfolioEndContent p{
+.PortfolioEndContent p {
   text-align: left;
   padding-top: 10px;
-} 
+}
 
-.PortfolioEndContent div{
+.PortfolioEndContent div {
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
 }
 
-.PortfolioEndContent img{
-  height: 600px;
+.PortfolioEndContent img {
+  max-width: 400px;
+  max-height: 500px;
+}
+
+.imgsMF img {
+  height: auto;
+  width: 400px;
 }
 
 .PortfolioEndContent ul {
@@ -853,26 +819,25 @@ footer ul li img {
   align-items: center;
 }
 
-.PortfolioEndContent ul li{
+.PortfolioEndContent ul li {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  transition: all ease .3s;
-
-
+  transition: all ease 0.3s;
 }
 
-.PortfolioEndContent ul img{
+.PortfolioEndContent ul img {
   height: 100px;
 }
 
-.PortfolioEndContent ul a{
+.PortfolioEndContent ul a {
   text-decoration: none;
   color: var(--gray-1);
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
 
-.PortfolioEndContent ul li:hover, .PortfolioEndContent ul li a:hover{
+.PortfolioEndContent ul li:hover,
+.PortfolioEndContent ul li a:hover {
   text-decoration: underline;
   color: var(--primary);
 }
