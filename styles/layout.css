@@ -120,7 +120,6 @@
     width: 100%;
     background-color: var(--primary);
     border-top: 2px solid var(--support-2);
-
     z-index: 1000;
     height: 0;
     visibility: hidden;
@@ -160,11 +159,13 @@
   #btn-menu p {
     text-transform: none;
     margin-right: 5px;
+    margin-bottom: 0;
   }
 
   #hamb {
     width: 20px;
     border-top: 3px solid var(--support-2);
+    margin-bottom: 0;
   }
 
   #hamb::after,
