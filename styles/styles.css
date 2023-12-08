@@ -805,9 +805,20 @@ footer ul li img {
   max-height: 500px;
 }
 
+.imgsUI img {
+  height: 500px;
+  width: auto;
+}
+
 .imgsMF img {
   height: auto;
   width: 400px;
+}
+
+.imgsMKT img{
+  width: 100%;
+  height: 100%;
+  transform: scale(1.5);
 }
 
 .PortfolioEndContent ul {
@@ -824,6 +835,7 @@ footer ul li img {
   flex-direction: column;
   gap: 5px;
   transition: all ease 0.3s;
+  align-items: center;
 }
 
 .PortfolioEndContent ul img {
@@ -836,8 +848,10 @@ footer ul li img {
   transition: all ease 0.3s;
 }
 
-.PortfolioEndContent ul li:hover,
+.PortfolioEndContent ul li:hover{
+  text-decoration: underline var(--primary);
+
+}
 .PortfolioEndContent ul li a:hover {
-  text-decoration: underline;
   color: var(--primary);
 }
