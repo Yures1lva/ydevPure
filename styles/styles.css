@@ -793,6 +793,10 @@ footer ul li img {
   padding-top: 10px;
 }
 
+.PortfolioEndContent p a {
+  color: var(--primary);
+}
+
 .PortfolioEndContent div {
   display: flex;
   gap: 20px;
@@ -815,7 +819,7 @@ footer ul li img {
   width: 400px;
 }
 
-.imgsMKT img{
+.imgsMKT img {
   width: 100%;
   height: 100%;
   transform: scale(1.5);
@@ -840,6 +844,12 @@ footer ul li img {
 
 .PortfolioEndContent ul img {
   height: 100px;
+  padding: 01;
+}
+
+.PortfolioEndContent ul li img {
+  padding: 0px;
+  margin: 0px;
 }
 
 .PortfolioEndContent ul a {
@@ -848,9 +858,8 @@ footer ul li img {
   transition: all ease 0.3s;
 }
 
-.PortfolioEndContent ul li:hover{
+.PortfolioEndContent ul li:hover {
   text-decoration: underline var(--primary);
-
 }
 .PortfolioEndContent ul li a:hover {
   color: var(--primary);
