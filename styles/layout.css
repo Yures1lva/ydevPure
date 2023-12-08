@@ -366,13 +366,12 @@
 
 @media (max-width: 500px) {
   .container {
-    max-width: 100%;
-    margin: 0 10px;
+    max-width: 95%;
   }
 
   .containerPortfolioDetail {
     margin: 0;
-    padding: 10px;
+    padding: 20px;
   }
 
   .introContent {
