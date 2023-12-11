@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Manjari&display=swap"
+    rel="stylesheet">
+  <meta name="descript" content="Site de portfólio ydev">
+  <meta name="keywords" content="Dev front, UI/UX, React, Flutter">
+  <link rel="stylesheet" href="../../styles/components.css">
+  <link rel="stylesheet" href="../../styles/styles.css">
+  <link rel="stylesheet" href="../../styles/layout.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Dev UI Informa</title>
+</head>
+
+
+<body>
+  <header id="header">
+    <nav id="nav" class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="/index.html"><img src="/assets/imgs/icon.svg" alt="Logo do site"></a>
+        </div>
+        <button id="btn-menu" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+          <p>Menu</p>
+          <span id="hamb"></span>
+        </button>
+        <ul role="menu" id="menu" class="menu">
+          <li><a id="linkmenu" href="/index.html#portfolio">Portfólio</a></li>
+          <li><a id="linkmenu2" href="/index.html#about">Sobre</a></li>
+          <li><a id="linkmenu3" href="/index.html#faq">Dúvidas</a></li>
+          <li><a id="linkmenu4" href="/index.html#contact">Contato</a></li>
+
+          <li><a id="linkmenu5" href="#new-account"><button class="button-stroke">Já tem uma
+                conta?</button></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="portfolioDetail containerPortfolioDetail ">
+    <article class="portfolioDetailTitle">
+      <h2>Desenvolvimento do app Informa Unifesspa.</h2>
+      <div class="introImgs">
+        <img src="../../assets/imgs/icone.png" alt="imagem ilustrativa para perunta enviada com sucesso">
+        <img src="../../assets/imgs/mobile.svg">
+      </div>
+    </article>
+
+    <h3>Contextualização</h3>
+    <p>Um aplicativo que visa a portabilidade da informação, colhendo informações gerais e aplicadas a cursos da
+      universidade de forma a deixá-las organizada e de fácil acesso em um app, o aplicativo já está com sua primeira
+      versão estável e utilizável agora está passando por uma grande atualização que mudará tanto seu visual quanto suas
+      funcionalidades. </p>
+    <div class="titlePortfolio">
+      <span></span>
+      <h3>Ferramentas</h3>
+    </div>
+
+    <article class="portfolioDetailCard">
+      <span>
+        <p>No desenvolvimento deste projeto a principal ferramenta utilizada foi o framework Flutter, nele foi
+          construído toda a interface do usuário e a lógica do app, (front e back) no banco de dados foi utilizado o
+          serviço do Firebase, como os fois produtos são da Google sua integração foi mais usual, além disso também foi
+          utilizado o trello como gerenciador de projeto, num projeto de maior escala é essencial ter uma boa gerencia
+          de desenvolvimento.</p>
+        <div>
+          <img src="../../assets/imgs/flutter.svg">
+          <img src="../../assets/imgs/firebase.svg">
+          <img src="../../assets/imgs/trello.png">
+        </div>
+      </span>
+    </article>
+
+    <div class="titlePortfolio titlePortfolio2 ">
+      <span></span>
+      <h3>Aquitetura</h3>
+    </div>
+
+    <article class="portfolioDetailCard portfolioDetailCard2">
+      <span>
+        <p>Quando se fala em uma aplicação com um potencial de crescimento é sempre um ponto importante falar de sua
+          arquitetura e esta aplicação serviu tanto para apresentação do meu TCC quanto para o estudo de arquiteturas em
+          projetos, aplicações com uma gama maior de funcionalidades, onde é necessário serviços para coletar dados da
+          nuvem precisam ter uma boa organização de pastas, separação de funcionalidades, neste projeto foi estudado e
+          implementado as práticas visto na Clean Architecture ( arquitetura limpa) que visa a separação dos componentes
+          do projeto visando um código limpo e que facilite atualizações futuras em qualquer das partes do app, front,
+          back, banco, serviços, regra de negócios e etc. </p>
+        <div>
+          <img src="../../assets/imgs/arch.png">
+        </div>
+      </span>
+    </article>
+
+
+    <div class="titlePortfolio">
+      <span></span>
+      <h3>Flutter</h3>
+    </div>
+
+    <article class="portfolioDetailCard">
+      <span>
+        <p>Firebase é uma plataforma web da Google que oferece alguns serviços a aplicativos como Banco de dados,
+          Notificações, análise, autenticação entre outros. O serviço que foi utilizado neste projeto em sua primeira
+          versão foi o Frebase Firestore, um banco de dados NoSQL totalmente gerenciado oferecendo escalabilidade,
+          desempenho entre outras vantagens, no geral o Firebase foi importante para voltar o foco do desenvolvimento
+          dento do Flutter, sendo esta camada (banco de dados) mais automatizada pelo Firestore. </p>
+        <div>
+          <img src="../../assets/imgs/flutter.svg">
+        </div>
+      </span>
+    </article>
+
+
+    <div class="titlePortfolio titlePortfolio2 ">
+      <span></span>
+      <h3>Firebase</h3>
+    </div>
+
+    <article class="portfolioDetailCard portfolioDetailCard2">
+      <span>
+        <p>
+          Firebase é uma plataforma web da Google que oferece alguns serviços a aplicativos como Banco de dados,
+          Notificações, análise, autenticação entre outros. O serviço que foi utilizado neste projeto em sua primeira
+          versão foi o Frebase Firestore, um banco de dados NoSQL totalmente gerenciado oferecendo escalabilidade,
+          desempenho entre outras vantagens, no geral o Firebase foi importante para voltar o foco do desenvolvimento
+          dento do Flutter, sendo esta camada (banco de dados) mais automatizada pelo Firestore.
+        </p>
+        <div>
+          <img src="../../assets/imgs/firebase.svg">
+        </div>
+      </span>
+    </article>
+
+
+    <div class="PortfolioEndContent">
+      <h3>atualizações</h3>
+      <p>Nas imagens abaixo é possível ver as atualizações que estão em andamento, é possível observar mudanças tanto em
+        interface de usuário quanto mudanças em funcionalidades do app, dividindo as notícias visualizadas em duas
+        partes, oportunidades de bolsas e notícias, esta mudança se dá também no esquema do banco de dados. Essas e
+        outras atualizações estão sendo implementadas, além disso o app terá seu deploy consolidado no início de 2025,
+        ficará disponível na Plays Store, loja padrão dos dispositivos Android..</p>
+      <br>
+      <br>
+
+      <div class="imgsUI">
+        <img src="../../assets/imgs/UiInformaprint.png" alt="">
+        <img src="../../assets/imgs/UiInformaprint02.png" alt="">
+      </div>
+
+      <h3>Conclusão</h3>
+      <p> primeira versão do aplicativo já conseguiu chegar a um bom resultado, esta versão já mostrava as notícias
+        alimentadas no Banco de dados de forma dinâmica, o app não apresentou grandes bugs e em sua beta foram
+        corrigidos bugs pequenos, graças a boa comunicação do Firebase com o Flutter, caso uma notícia estivesse errada
+        era fácil a edição ou exclusão do banco de dados e momentaneamente do app. A segunda versão logo estará pronta e
+        virá como uma atualização na PlayStore.</p>
+      <br>
+      <br>
+
+      <h3>Links do projeto</h3>
+      <ul>
+        <li>
+          <img src="../../assets/imgs/figma.svg" alt="">
+          <a href="./uiInforma.html">Desing da Interface</a>
+        </li>
+        <li>
+          <img src="../../assets/imgs/behance 1.png" alt="">
+          <a target="_blank"
+            href="https://www.behance.net/gallery/182746123/Atualizacao-UI-App-I-Unifesspa">Apresentação</a>
+        </li>
+        <li>
+          <img src="../../assets/imgs/icone.png" alt="">
+          <a target="_blank"
+            href="https://drive.google.com/drive/folders/1OLSidjrem5_X5UIb0XxkPHxIdellRHi-?usp=drive_link">Apk
+            instalável</a>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class=" divider"></div>
+    <ul class="container">
+      <li>
+        <img src="../../assets/imgs/iconFooter.svg" alt="logo do site">
+        <p>Vamos inovar artes digitais juntos</p>
+      </li>
+      <li>
+        <h1>Sobre</h1>
+        <a href="../../pages/maintance.html">Política de privacidade</a>
+        <a href="../maintance.html">Termos de uso</a>
+        <a href="../maintance.html">Sobre este site</a>
+      </li>
+      <li>
+        <h1>Social</h1>
+        <a target="_blank" href="https://github.com/Yures1lva">Github</a>
+        <a target="_blank" href="https://behance.net/yurosilva">Behance</a>
+        <a target="_blank" href="https://www.instagram.com/yures1lva/">Instagram</a>
+        <a target="_blank" href="https://www.linkedin.com/in/yuresilva/">Linkedin</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="../../js/index.js"></script>
+</body>
+
+</html>
