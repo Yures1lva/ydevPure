@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Manjari&display=swap"
+    rel="stylesheet">
+  <meta name="descript" content="Site de portfólio ydev">
+  <meta name="keywords" content="Dev front, UI/UX, React, Flutter">
+  <link rel="stylesheet" href="../../styles/components.css">
+  <link rel="stylesheet" href="../../styles/styles.css">
+  <link rel="stylesheet" href="../../styles/layout.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Dev MF produtora</title>
+</head>
+
+
+<body>
+  <header id="header">
+    <nav id="nav" class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="/index.html"><img src="/assets/imgs/icon.svg" alt="Logo do site"></a>
+        </div>
+        <button id="btn-menu" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+          <p>Menu</p>
+          <span id="hamb"></span>
+        </button>
+        <ul role="menu" id="menu" class="menu">
+          <li><a id="linkmenu" href="/index.html#portfolio">Portfólio</a></li>
+          <li><a id="linkmenu2" href="/index.html#about">Sobre</a></li>
+          <li><a id="linkmenu3" href="/index.html#faq">Dúvidas</a></li>
+          <li><a id="linkmenu4" href="/index.html#contact">Contato</a></li>
+
+          <li><a id="linkmenu5" href="#new-account"><button class="button-stroke">Já tem uma
+                conta?</button></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="portfolioDetail containerPortfolioDetail ">
+    <article class="portfolioDetailTitle">
+      <h2>Desenvolvimento da MF produtora.</h2>
+      <div class="introImgs">
+        <img src="../../assets/imgs/MF.png" alt="imagem ilustrativa para perunta enviada com sucesso">
+        <img src="../../assets/imgs/web.svg">
+      </div>
+    </article>
+
+    <h3>Contextualização</h3>
+    <p>Com o design system criado e acordado com o cliente, foi possível partir para o desenvolvimento do site, neste
+      caso foram escolhida novas ferramentas de desenvolvimento, alguns detalhes foram acertados com o cliente, como a
+      cor principal e design de algumas imagens, mas fora isso o desenvolvimento seguiu a risca tudo que foi
+      implementado no design da interface do site.</p>
+    <div class="titlePortfolio">
+      <span></span>
+      <h3>Ferramentas</h3>
+    </div>
+
+    <article class="portfolioDetailCard">
+      <span>
+        <p>Nesta aplicação foi utilizado tecnologias mais atuais, pensando em como o site pode evoluir pra mais páginas
+          futuramente foi utilizado como ferramenta principal o ReactJs um framework/biblioteca de JavaScript de
+          desenvolvimento web, uma ótima aplicação para controle inteligente do frontend por meio de components, junto a
+          essa tecnologia foram utilizadas alguns pacotes conhecidos por agilizar e aumentar a performance da aplicação
+          em desenvolvimento, o typeScript e o vite.</p>
+        <div>
+          <img src="../../assets/imgs/frameworksMF.png">
+        </div>
+      </span>
+    </article>
+
+    <div class="titlePortfolio titlePortfolio2 ">
+      <span></span>
+      <h3>Components</h3>
+    </div>
+
+    <article class="portfolioDetailCard portfolioDetailCard2">
+      <span>
+        <p>Das inúmeras vantagens de se usar o react uma de bastante destaque para o frontend é a utilização do conceito
+          de components, se dá basicamente pelo fato do reaproveitamento de código, diminuindo drasticamente o tamanho
+          de sua aplicação, onde elementos que se repetem na tela podem ser facilmente reutilizados mudando apenas seus
+          atributos se necessário. Com o uso dessa ferramenta o desenvolvimento do se deu de forma mais organizada e
+          eficiente. </p>
+        <div>
+          <img src="../../assets/imgs/components.png" alt="imagem da logo do MKT criativo">
+        </div>
+      </span>
+    </article>
+
+
+    <div class="titlePortfolio">
+      <span></span>
+      <h3>TypeScript</h3>
+    </div>
+
+    <article class="portfolioDetailCard">
+      <span>
+        <p>O uso dessa ferramenta foi necessário para melhorar a tipagem do projeto, com o TS é possível adicionar
+          recursos que não estão presentes de maneira nativa em JavaScript, essa ferramenta fará bem mais diferença com
+          a possível expansão do site futuramente.
+        </p>
+        <div>
+          <img src="../../assets/imgs/ts.png" alt="imagem ilustrativa para perunta enviada com sucesso">
+        </div>
+      </span>
+    </article>
+
+
+    <div class="titlePortfolio titlePortfolio2 ">
+      <span></span>
+      <h3>Vite</h3>
+    </div>
+
+    <article class="portfolioDetailCard portfolioDetailCard2">
+      <span>
+        <p>
+          A utilização do vite se deu para diminuir a sobrecarga de configurações no início do projeto, o vite consegue
+          configura toda a comunicação entre as partes do projeto, as partir de sua utilização o desenvolvedor passa a
+          se preocupar apenas em criar o css e o html da aplicação já que o JavaScript pode ser executado em um mesmo
+          documento graças as configurações de projeto realizadas pelo vite+React.
+        </p>
+        <div>
+          <img src="../../assets/imgs/vite.png">
+        </div>
+      </span>
+    </article>
+
+
+    <div class="PortfolioEndContent">
+      <h3>Resultado Final</h3>
+      <p>Após ser desenvolvido e apresentado para o cliente. foram feitas algumas alterações básicas de design, contudo
+        o cliente se sentiu satisfeito e o site pode ser entregue, o site está no ar apenas com uma ferramenta de
+        deploy, assim que o cliente resolver algumas questões, ele poderá ser hosteado em seu domínio..</p>
+      <br>
+      <br>
+
+      <div class="imgsMF">
+        <img src="../../assets/imgs/ResultMF01.png" alt="">
+
+      </div>
+
+      <h3>Conclusão</h3>
+      <p>O desenvolvimento com ferramentas mais atuais serviu para se conhecer mais sobre eficácia no desenvolvimento, o
+        próximo passo é criar uma página de adm que fique responsável por gerenciar os dados do site, como clientes,
+        resultados ou feedback, mas para o que foi solicitado pelo cliente, apenas um site de apresentação este projeto
+        conseguiu chegar em seu resultado esperado.</p>
+      <br>
+      <br>
+
+      <h3>Links do projeto</h3>
+      <ul>
+        <li>
+          <img src="../../assets/imgs/ux.svg" alt="">
+          <a href="./mfProdutora.html">Design da Interface</a>
+        </li>
+        <li>
+          <img src="../../assets/imgs/github.png" alt="">
+          <a target="_blank" href="https://github.com/Yures1lva/MF_Produtora/
+            ">Repositório</a>
+        </li>
+        <li>
+          <img src="../../assets/imgs/web.svg" alt="">
+          <a target="_blank" href="https://mayconfilmes.netlify.app/">Projeto Final</a>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class=" divider"></div>
+    <ul class="container">
+      <li>
+        <img src="../../assets/imgs/iconFooter.svg" alt="logo do site">
+        <p>Vamos inovar artes digitais juntos</p>
+      </li>
+      <li>
+        <h1>Sobre</h1>
+        <a href="../../pages/maintance.html">Política de privacidade</a>
+        <a href="../maintance.html">Termos de uso</a>
+        <a href="../maintance.html">Sobre este site</a>
+      </li>
+      <li>
+        <h1>Social</h1>
+        <a target="_blank" href="https://github.com/Yures1lva">Github</a>
+        <a target="_blank" href="https://behance.net/yurosilva">Behance</a>
+        <a target="_blank" href="https://www.instagram.com/yures1lva/">Instagram</a>
+        <a target="_blank" href="https://www.linkedin.com/in/yuresilva/">Linkedin</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="../../js/index.js"></script>
+</body>
+
+</html>
