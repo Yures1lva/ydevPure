@@ -275,7 +275,7 @@
 
   .skills {
     gap: 30px;
-    justify-content: space-evenly;
+    justify-content: start;
   }
 
   .skills article {
@@ -434,7 +434,7 @@
 
     .skills {
       gap: 10px;
-      justify-content: space-evenly;
+      justify-content: start;
     }
 
     .skills article {
