@@ -397,6 +397,7 @@
 .questions a {
   text-transform: none;
   text-decoration: underline;
+  color: var(--primary);
   cursor: pointer;
 }
 
