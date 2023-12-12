@@ -865,3 +865,17 @@ footer ul li img {
 .PortfolioEndContent ul li a:hover {
   color: var(--primary);
 }
+
+/* termos de uso........................................ */
+
+.Terms h3 {
+  height: 6px;
+  padding-top: 90px;
+  margin-top: 0;
+  color: var(--gray-2);
+}
+
+.Terms p {
+  color: var(--gray-2);
+  padding: 5px 0;
+}
