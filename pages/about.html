@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Manjari&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="imagex/png" href="../../assets/imgs/ico.ico">
+  <meta name="descript" content="Site de portfólio ydev">
+  <meta name="keywords" content="Dev front, UI/UX, React, Flutter">
+  <link rel="stylesheet" href="../../styles/components.css">
+  <link rel="stylesheet" href="../../styles/styles.css">
+  <link rel="stylesheet" href="../../styles/layout.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Sobre o site</title>
+</head>
+
+
+<body>
+  <header id="header">
+    <nav id="nav" class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="/index.html"><img src="/assets/imgs/icon.svg" alt="Logo do site"></a>
+        </div>
+        <button id="btn-menu" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+          <p>Menu</p>
+          <span id="hamb"></span>
+        </button>
+        <ul role="menu" id="menu" class="menu">
+          <li><a id="linkmenu" href="/index.html#portfolio">Portfólio</a></li>
+          <li><a id="linkmenu2" href="/index.html#about">Sobre</a></li>
+          <li><a id="linkmenu3" href="/index.html#faq">Dúvidas</a></li>
+          <li><a id="linkmenu4" href="/index.html#contact">Contato</a></li>
+
+          <li><a id="linkmenu5" href="#new-account"><button class="button-stroke">Pedir Orçamento</button></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="aboutThis containerPortfolioDetail">
+    <h2 class="firstAboutThis">Sobre este Site</h2>
+    <p>
+      Todo o estudo teórico de usabilidade, desenvolvimento de interface do usuário e codificação foi realizado por
+      Jefferson Yure, dono da ydev, o site tem por objetivo centralizar os principais projetos já desenvolvidos, onde
+      cada um desses projetos tem seu devido valor para demonstrar a fluidez do desenvolvedor em trabalhar com
+      tecnologias e ferramentas variadas, assim com seus conhecimentos em estudos que relacionam UX. Nesta seção será
+      apresentado os principais detalhes de design utilizados na criação deste site além das ferramentas e conceitos
+      utilizados nos desenvolvimento dos projetos apresentados.
+    </p>
+
+    <div class="uiAbout">
+
+      <h2>UI/UX <span>ydev</span></h2>
+
+      <article class="tipograifaAbout">
+        <h3>Tipograifa</h3>
+        <h4>Inconsolata</h4>
+        <h5>Para textos em destaque</h5>
+        <div>
+          <h4>Manjari</h4>
+          <h5>Para leituras e textos secundários</h5>
+        </div>
+        <p>
+          Utilizando padrões atuais de Design foram escolhidas apenas duas famílias de fontes, a Inconsolata para
+          destaques por ser uma fonte com traços mais fortes e curvas sólidas, podendo chamar mais atenção do usuário.
+          Manjari escolhida para o corpo do texto, ou seja textos maiores onde deve ser priorizado a suavidades e
+          facilidade de leitura do usuário. Junto a essas duas famílias foi utilizado um padrão de tamanhos e
+          espaçamentos para todo o site, além de atributos que diferencia as característica da fonte como, Uppercase,
+          ítalico, sublinhado, sem contar com a variação na paleta que é outro elemento importante no design de uma
+          interface.
+        </p>
+      </article>
+
+      <article class="spacingAbout">
+        <div></div>
+        <h3>Valorizando espaços em branco</h3>
+        <span></span>
+        <article>
+          <div></div>
+          <p>
+            Espaço negativo ou espaço em branco é um dos princípios de um design ideal, nessa UI ele é usado
+            principalmente como divisor de elementos ou fluxo de leitura. O uso de linhas como divisão pode deixar uma
+            interface poluída, pensando nisso esta foi criada com essa valorização, o espaço em branco, também é uma
+            forma
+            de preenchimento, com a distribuição certa de elementos a interface fica com uma leitura agradável.
+          </p>
+          <div></div>
+        </article>
+        <div></div>
+      </article>
+
+      <h3>Valorizando espaços em branco</h3>
+      <img src="/assets/imgs/components About.png" alt="imagem que representa componentização">
+      <p>
+        Esta é apenas a primeira versão do site, ele apresenta um conteúdo vasto para ser apenas uma aplicação de uma
+        única página, pensando em como o projeto vai evoluir e se expandir a cada atualização, todo o design system foi
+        pensado em ser amigável para o desenvolvedor, nesse sentido, muitos elementos deste website teve como premissa a
+        componentização de elementos, ou seja elementos que visualmente são iguais mas que tem atributos diferentes.
+        <br>
+        <br>
+        Desta forma apesar desta primeira versão ser criada sem o uso de qualquer framework, quando sua tecnologia for
+        transferida (provavelmente React) a redução de código será enorme. Isso será possível por conta do bom
+        aproveitamento de componentes que frameworks atuais tem como React, Flutter e etc.
+      </p>
+      <br>
+      <br>
+      <br>
+      <h3>Paleta de cores</h3>
+      <div class="paletteAbout">
+        <p>
+          A paleta puxada para o azul, sendo a sua cor principal a <span>#2B64D8</span> um azul suave, apesar desta ser
+          a cor principal, não foi a mais utilizada no site, como o site prioriza o design <span>clean</span>, ela foi
+          utilizada apenas em elementos de destaque, sendo a cor branca a mais utilizada, também é possível perceber o
+          uso de variações da cor primaria, como o fundo desta seção por exemplo. Junto a isso, também foi apresentado
+          um <span>variação</span> de cinza para textos, pois como todo designer sabe, <b> um texto totalmente preto não
+            é agradável de se ler</b>, além de se destacar mais do que o necessário.
+        </p>
+        <img src="/assets/imgs/paletteAbout.png" alt="imagem que representa o uso da paleta de cores do site">
+      </div>
+
+      <p class="lastAbout">
+        Essa foi uma apresentação das principais técnicas utilizada na criação desta interface, o processo de criação de
+        um design é bem mais detalhado e trabalhoso do que o apresentado, porém já da pra entender uma boa parcela do
+        porque cada
+        elemento dessa interface está onde está. Esse site foi criado pensando no público em geral, tanto possíveis
+        clientes, quanto recrutadores, amigos ou qualquer pessoa do mundo da tecnologia da informação, estou disposto a
+        receber feedback sobre a UI desta primeira versão do projeto, caso tenha algo a dizer, entre em contato comigo.
+      </p>
+
+    </div>
+
+    <!-- <div class="devAbout">
+      <h2>UI/UX <span>ydev</span></h2>
+
+    </div> -->
+
+  </section>
+
+  <footer>
+    <div class=" divider"></div>
+    <ul class="container">
+      <li>
+        <img src="../../assets/imgs/iconFooter.svg" alt="logo do site">
+        <p>Vamos inovar artes digitais juntos</p>
+      </li>
+      <li>
+        <h1>Sobre</h1>
+        <a href="../terms.html">Termos de uso</a>
+        <a href="../maintance.html">Sobre este site</a>
+      </li>
+      <li>
+        <h1>Social</h1>
+        <a target="_blank" href="https://github.com/Yures1lva">Github</a>
+        <a target="_blank" href="https://behance.net/yurosilva">Behance</a>
+        <a target="_blank" href="https://www.instagram.com/yures1lva/">Instagram</a>
+        <a target="_blank" href="https://www.linkedin.com/in/yuresilva/">Linkedin</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="../../js/index.js"></script>
+</body>
+
+</html>

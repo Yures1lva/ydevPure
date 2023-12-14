@@ -879,3 +879,144 @@ footer ul li img {
   color: var(--gray-2);
   padding: 5px 0;
 }
+
+/* About sobre........................................................... */
+
+.aboutThis {
+  text-align: center;
+}
+
+.aboutThis img {
+  height: 130px;
+  margin: 20px 0;
+}
+
+.uiAbout p {
+  max-width: 600px;
+}
+
+.aboutContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.aboutThis p {
+  color: var(--gray-1);
+}
+
+.firstAboutThis {
+  padding-top: 90px;
+  margin: 0;
+}
+
+.uiAbout {
+  padding: 8px;
+  margin-top: 30px;
+  background-color: var(--primary-light);
+  border: var(--support-4) 1px solid;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.uiAbout > h2 > span {
+  color: var(--primary);
+}
+
+.uiAbout h3 {
+  margin: 0;
+  padding: 0;
+  color: var(--gray-2);
+}
+
+.uiAbout h5 {
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  margin: 0;
+  padding: 0;
+  color: var(--gray-2);
+}
+
+.tipograifaAbout h4 {
+  font-size: 90px;
+  color: #06f301;
+  font-family: "Inconsolata";
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+}
+
+.tipograifaAbout div {
+  text-align: right;
+}
+
+.tipograifaAbout div h4 {
+  color: #608be2;
+  font-family: "Manjari", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+
+.tipograifaAbout p {
+  max-width: 550px;
+  padding-top: 50px;
+}
+
+.spacingAbout {
+  text-align: center;
+}
+
+.spacingAbout div {
+  display: block;
+  width: 2;
+  height: 80px;
+  margin: 0 49.8% 0 49.9%;
+  background-color: var(--primary);
+}
+
+.spacingAbout span {
+  display: block;
+  /* width: 20px; */
+  height: 50px;
+  margin: 0px 47% 5px 47%;
+  border: 2px solid #f317b0;
+}
+
+.spacingAbout p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.spacingAbout article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spacingAbout article div {
+  margin: 0;
+  display: block;
+  width: 100%;
+  height: 0.1px;
+  border-bottom: #f317b0 2px solid;
+}
+
+.paletteAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paletteAbout p span {
+  color: var(--primary);
+}
+
+.paletteAbout b {
+  color: black;
+}
+
+.lastAbout {
+  text-align: center;
+  margin: 50px auto 10px auto;
+}
